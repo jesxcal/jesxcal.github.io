@@ -124,3 +124,14 @@ h2 {
     margin: 0;
     font-size: 14px;
 }
+/* Show complete photos without cropping /
+.photo img {
+width: 100%;
+height: 220px;
+object-fit: contain;
+}
+/* Keep The Weeknd portrait fully visible /
+.artist-gallery .photo img {
+height: 280px;
+object-fit: contain;
+}
